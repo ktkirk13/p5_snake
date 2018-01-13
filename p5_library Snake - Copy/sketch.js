@@ -12,7 +12,7 @@ var startSize = 8;
 var lastKey;
 
 function setup() {
-    createCanvas(600, 600);
+    createCanvas(200, 200);
     for(var i = 0; i < startSize; i++){
         snake.push(new Snake());
         init = false;
